@@ -1,64 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&family=Philosopher:wght@700&display=swap");
+
 .navbar-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1;
-  }
-  
-  .navbar-nav > li {
-    flex: 1;
-    text-align: center;
-    margin: 0;
-    font-size: x-large;
-  }
-  
-  .center-img{
-    z-index: 1;
-  }
-
- #name,h3,h4,#footer>i{
-    color: #fe3b0f;
- }
-
- .nav-link:hover,a{
-    color:#ff2a68;
-    text-decoration: none;
- }
-
- .hero-img{
-    margin-bottom: 8rem;
-    
- }
-
- #carouselExample{
-    width: 60%;
-    margin: 0 auto;
- }
-
- #footer>i{
-   font-size: x-large;
- }
-
-#video{
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  font-family: "Philosopher", sans-serif;
 }
- 
-footer{
-   
-    margin-top: 8rem;
+
+.navbar-nav > li {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  font-size: x-large;
+}
+
+/* object-fit: cover maintains the image aspect ratio
+width is set to 100% so the images fill the card width */
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.center-img {
+  z-index: 1;
+}
+
+#name,
+h3,
+h4,
+#footer > i {
+  color: #fe3b0f;
+  font-family: "Philosopher", sans-serif;
+}
+
+.nav-link:hover,
+a {
+  color: #ff2a68;
+  text-decoration: none;
+}
+
+.hero-img {
+  margin-bottom: 8rem;
+}
+
+#carouselExample {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#footer > i {
+  font-size: x-large;
+}
+
+#video {
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 8rem;
 }
 
 @media (max-width: 600px) {
-   #jikoniLogo {
-     display: none;
-   }
- }
-
-
-#food-card{
-    margin-top: 7rem;
+  #jikoniLogo {
+    display: none;
+  }
 }
 
-.card-text{
-   font-size: larger;
+#food-card {
+  margin-top: 7rem;
+}
+
+.card-text {
+  font-size: larger;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Andika", sans-serif;
 }
