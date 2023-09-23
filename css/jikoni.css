@@ -30,8 +30,7 @@ width is set to 100% so the images fill the card width */
 
 #name,
 h3,
-h4,
-#footer > i {
+h4 {
   color: #fe3b0f;
   font-family: "Philosopher", sans-serif;
 }
